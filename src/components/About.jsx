@@ -6,10 +6,10 @@ import { FaAward, FaCamera } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="py-20 md:py-28">
-      <div className="container mx-auto px-4">
-        <div className=" flex flex-col md:flex-row items-center gap-12">
+      <div className="container mx-auto px-4 ">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* image */}
-          <div className="lg:w-1/2 relative " data-aos="fade-right">
+          <div className="w-full lg:w-1/2 relative" data-aos="fade-right">
             <div className="relative rounded-e-2xl  overflow-hidden shadow-2xl animate-float">
               <img
                 src={assets.aboutImg}
@@ -17,12 +17,12 @@ const About = () => {
                 className="w-full h-auto"
               />
             </div>
-            <div className="absolute -bottom-6  -right-6 bg-gradient-rose  text-white px-6 py-3  rounded-full shadow-lg">
-              <span className="font-bold">12+ Years Experience</span>
+            <div className="absolute -bottom-6 right-2 md:-right-6 bg-gradient-rose text-white px-4 md:px-6 py-3 rounded-full shadow-lg">
+              <span className="font-bold text-md md:text-base">12+ Years Experience</span>
             </div>
           </div>
           {/* content */}
-          <div className="lg:w-1/2" data-aos="fade-left">
+          <div className="w-full lg:w-1/2" data-aos="fade-left">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
              Learn From Our Experience,
               <span className="text-gradient-rose"> Create Your Own Success</span>

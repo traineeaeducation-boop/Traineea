@@ -32,7 +32,8 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-cream rounded-2xl p-8 testimonial-card hover:translate-y-2 transition-all duration-300"
+              className="relative bg-cream rounded-2xl p-8 testimonial-card hover:translate-y-2 transition-all duration-300"
+
             >
               <div className="flex items-center mb-6">
                 <img

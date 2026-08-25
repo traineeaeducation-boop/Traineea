@@ -35,7 +35,9 @@ const Pricing = () => {
           {packages.map((pkg, ind) => (
             <div
               key={ind}
-              className={`bg-white rounded-2xl  p-8 shadow-lg relative ${pkg.featured ? "shadow-2xl transform scale-105 border-2 border-rose" : ""} hover:-translate-y-2 transition-all duration-200`}
+              className={`bg-white rounded-2xl  p-8 shadow-lg relative ${pkg.featured ?
+                 "shadow-2xl border-2 border-rose md:scale-105" : ""}
+                  hover:-translate-y-2 transition-all duration-200`}
             >
               {pkg.featured && (
                 <div className="absolute top-0 right-0 bg-gradient-rose text-white px-6 py-2 rounded-tr-2xl rounded-bl-lg">
