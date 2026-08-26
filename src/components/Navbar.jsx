@@ -68,7 +68,7 @@ useEffect(()=>{
         </div>
         {/* mobile Navigation */}
         <div
-          className={`${isMobileMenuOpen ? "block" : "hidden"} md:hidden mt-4 pd-4`}
+          className={`${isMobileMenuOpen ? "block" : "hidden"} md:hidden mt-4 p-4`}
         >
           <div className="flex flex-col  space-y-6 ">
             {navLinks.map((link) => (
@@ -76,7 +76,7 @@ useEffect(()=>{
                 key={link.id}
                 onClick={() => {
                   setMobileMenuOpen(!isMobileMenuOpen);
-                  scrollToSection(link.id);
+                  handleNavClick(link.id);
                 }}
                 className="text-charcoal hover:text-gold font-medium text-left"
               >
