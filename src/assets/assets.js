@@ -2,7 +2,7 @@ import bgImg from '../assets/portfolio11.jpeg';
 import reviewOne from '../assets/reviewOne.png';
 import portfolio1Img from '../assets/portfolio1.avif';
 import portfolio2Img from '../assets/portfolio2.avif';
-import portfolio3Img from '../assets/portfolio3.avif';
+import portfolio3Img from '../assets/portfolio3.jpeg';
 import portfolio4Img from '../assets/portfolio4.avif';
 import portfolio5Img from '../assets/portfolio5.avif';
 import portfolio6Img from '../assets/portfolio6.avif';
@@ -10,6 +10,9 @@ import portfolio7Img from '../assets/portfolio7.jpeg';
 import portfolio8Img from '../assets/portfolio8.jpeg';
 import portfolio9Img from '../assets/portfolio9.jpeg';
 import portfolio10Img from '../assets/portfolio10.jpeg';
+import portfolio11Img from '../assets/portfolio11.jpeg';
+import portfolio12Img from '../assets/portfolio12.jpeg';
+import portfolio13Img from '../assets/portfolio13.png';
 import testimonial2 from '../assets/testimonial2.png';
 import testimonial3 from '../assets/testimonial3.png';
 import aboutImg from '../assets/Yamuna Sani.png';
@@ -104,7 +107,19 @@ export const portfolioItems = [
     category: "activity",
     title: "Activity Session"
   }
-  
+  ,
+  {
+    id: 11,
+    image: portfolio12Img,
+    category: "activity",
+    title: "Activity Session"
+  },
+  {
+    id: 12,
+    image: portfolio13Img,
+    category: "practical",
+    title: "Practical session"
+  }
 ]
 
 export const services = [
@@ -253,6 +268,6 @@ export const serviceLinks = [
 export const socialLinks = [
     { icon: FaInstagram , href: 'https://www.instagram.com/traineeaeducation/?hl=en' },
     { icon: FaFacebook, href: 'https://www.facebook.com/traineeaeducationprivatelimited/' },
-    { icon: FaWhatsapp, href: 'https://web.whatsapp.com/' },
+    { icon: FaWhatsapp, href: 'https://wa.me/9736340442/' },
     { icon:  FaGoogle , href: 'https://share.google/xPHhNuNsE6BdKm11W' }
   ]
